@@ -1,0 +1,153 @@
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+
+}
+#title {
+  background-color: #222831;
+  color: white;
+}
+#Bio{
+  background-color: #222831;
+  color: white;
+  position: relative;
+  padding: 3% 7% 15%;
+}
+#works{
+  background-color: #222831;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+.title-img {
+  width: 20%;
+  border-radius: 100%;
+  float: left;
+  position: relative;
+}
+.username{
+  text-align: left;
+  position: relative;
+  left: 60px;
+  padding-top: 50px;
+  font-family: "ubuntu";
+  font-size: 1.5rem;
+}
+.Opening-quote{
+  text-align: left;
+  padding-top: 10px;
+  position: relative;
+  font-family: "ubuntu";
+  left: 60px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container-works{
+  padding: 3% 15% 7%;
+}
+.foot{
+  padding: 3% 15% 7%;
+}
+.social {
+  margin: 20px 10px;
+}
+.anchor {
+  color: black;
+}
+.mb2, .my-2{
+  margin-bottom: .5rem!important
+}
+@media (max-width:900px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    width: 40%;
+    border-radius: 100%;
+    padding-top: 20px;
+    position: static;
+  }
+  .username{
+    text-align: left;
+    position: relative;
+    left: 30px;
+    padding-top: 50px;
+    font-family: "ubuntu";
+    font-size: 1rem;
+  }
+  .Opening-quote{
+    text-align: left;
+    padding-top: 5px;
+    padding-right: 10px;
+    position: relative;
+    font-family: "ubuntu";
+    left: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .container-fluid {
+    padding: 3% 15% 7%;
+    font-size: 1rem;
+  }
+.image-thumb{
+  position: static;
+}
+.navbar {
+  padding: 0 0 2.5rem;
+}
+@media (max-width:900px) and (mix-width:570px)
+#title {
+  text-align: center;
+}
+.title-img {
+  width: 20%;
+  border-radius: 100%;
+  padding-top: 20px;
+  position: static;
+}
+.username{
+  text-align: left;
+  position: relative;
+  left: 30px;
+  padding-top: 50px;
+  font-family: "ubuntu";
+  font-size: 1rem;
+}
+.Opening-quote{
+  text-align: left;
+  padding-top: 5px;
+  padding-right: 10px;
+  position: relative;
+  font-family: "ubuntu";
+  left: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+  font-size: 1rem;
+}
+.image-thumb{
+position: static;
+}
+.navbar {
+padding: 0 0 2.5rem;
+}
